@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Lobster|Work+Sans" rel="stylesheet">
+    <title>Order Form</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/ice.png" alt="logo">
+      <img src="images/logo1.png"></img>
+      <h1>Hand Crafted Icecream</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Home">Home</li>
+        <li><a href="#" title="About">About Us</a></li>
+        <li><a href="orderform.html" title="Orderform">Order Ice Cream</a></li>
+        <li><a href="#" title="Products">Our Products</a></li>
+      </ul>
+    </nav>
+    <form action="index.html" method="get">
+      <div class="orderHp">
+      <h2 id="formH2">Order Form</h2>
+      <p id="formP">Choose from our delicious custom made icecreams and have them delivered right to your door!</p>
+      </div>
+      <fieldset>
+        <legend class="formtop">
+          Select your order
+        </legend>
+        <label>
+          Our Icecreams:
+        </label>
+        <label for="selectIce">
+        <select name="referrer" id="selectIce">
+          <option value="frostydiamonds">Frosty Diamonds</option>
+          <option value="nicecreamspecial">Nice Cream Special</option>
+          <option value="delicious">Delicious</option>
+          <option value="vanillaice">Vanilla Ice</option>
+          <option value="strawberryparty">Strawberry Party</option>
+        </select>
+        </label>
+        <br />
+        <label>
+          Options:
+        </label>
+        <label for="selectOption">
+        <select name="referrer" id="selectOption" class="optionLabel">
+          <option value="Option1">Option1</option>
+          <option value="Option2">Option2</option>
+          <option value="Option3">Option3</option>
+          <option value="Option4">Option4</option>
+        </select>
+        </label>
+        <br />
+      <p class="allP firstP"><strong>Option 1:</strong> 1 pack containing 1L of your chosen icecream and 1 pack with 6 cones <b>($8)</b></p>
+      <p class="allP"><strong>Option 2:</strong> 2 packs containing 1L of your chosen icecream and 1 pack with 6 cones <b>(14$)</b></p>
+      <p class="allP"><strong>Option 3:</strong> 1 pack containing 2L of your chosen icecream and 1 packs with 12 cones <b>(16$)</b></p>
+      <p class="allP"><strong>Option 3:</strong> 2 packs containing 2L of your chosen icecream and 1 pack with 12 cones <b>($29)</b></p>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend class="formtop">
+          Contact Details
+        </legend>
+        <label for="name">
+          Name:
+          <input id="name" type="text" name="name" size="25" maxlength="100">
+        </label>
+        <br />
+        <label for="adress">
+          Adress:
+          <input id="adress" type="text" name="name" size="25" maxlength="100">
+        </label>
+        <br />
+        <label for="email">
+          Email:
+          <input id="email" type="email" name="email" size="25" maxlength="100">
+        </label>
+        <br />
+        <label for="phonenumber">
+          Phonenumber:
+          <input id="phonenumber" type="number" name="number">
+        </label>
+        <br />
+        <label for="button">
+          <input id="button" class="button" type="submit" name="btn" value="Add to Cart">
+        </label>
+      </fieldset>
+    </form>
+    <footer>
+      <div class="footerWrap">
+        <div class="col1">
+          <h4>Adress</h4>
+          <p>618  Taylor Street</p>
+          <p>10011 New York</p>
+        </div>
+        <div class="col1">
+          <h4>Contact</h4>
+          <p>Tel: 914-610-7809</p>
+          <p>E-mail: contact@nicecream.com</p>
+        </div>
+        <div class="col1">
+          <h4>Opening Hours</h4>
+          <p>Open Every Day</p>
+          <p>9AM-8PM</p>
+        </div>
+        <p id="copyRight">&copy Nice Cream</p>
+      </div>
+    </footer>
+  </body>
+</html>
